@@ -8,14 +8,17 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      patientId: {
-        type: Sequelize.INTEGER,
+      name: {
+        type: Sequelize.STRING,
       },
-      doctorId: {
-        type: Sequelize.INTEGER,
+      address: {
+        type: Sequelize.STRING,
       },
       description: {
         type: Sequelize.TEXT,
+      },
+      image: {
+        type: Sequelize.STRING,
       },
       createdAt: {
         allowNull: false,
